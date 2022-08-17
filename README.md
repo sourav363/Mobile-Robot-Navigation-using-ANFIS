@@ -11,7 +11,7 @@ Safe navigation of mobile robot(s) in unknown environment avoiding static obstac
 3. press run to start simulation
 4. In MATLAB open the main.m script & run
 
-**Complete walkthrough video**
+**Walkthrough video & vizualizations below**
 
 
 https://user-images.githubusercontent.com/41478793/185258943-adf97300-6aa3-462c-a0d2-ca28ecb53283.mp4
