@@ -1,0 +1,11 @@
+function RobotHandle = ObjectHandle(sim,clientID)
+    RobotHandle = zeros(6,1);
+    [~,RobotHandle(1,:)]=sim.simxGetObjectHandle(clientID,'Robot1',sim.simx_opmode_blocking);
+    [~,RobotHandle(2,:)]=sim.simxGetObjectHandle(clientID,'Robot2',sim.simx_opmode_blocking);
+    [~,RobotHandle(3,:)]=sim.simxGetObjectHandle(clientID,'Robot3',sim.simx_opmode_blocking);
+    [~,RobotHandle(4,:)]=sim.simxGetObjectHandle(clientID,'Robot4',sim.simx_opmode_blocking);
+    [~,RobotHandle(5,:)]=sim.simxGetObjectHandle(clientID,'Robot5',sim.simx_opmode_blocking);
+    [~,RobotHandle(6,:)]=sim.simxGetObjectHandle(clientID,'Robot6',sim.simx_opmode_blocking);
+    RobotHandle = zeros(6,1);
+end
+
